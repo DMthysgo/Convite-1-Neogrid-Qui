@@ -2,22 +2,27 @@
     width: 100%;
 }
 
-section.resume-section {
-    display: flex;
-    align-items: center;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    max-width: 75rem;
-    margin-top: 200px;
-}
-
 section.resume-section .resume-section-content {
     width: 100%;
+    position: relative;
+    padding: 20px;
+    border-radius: 8px; 
 }
 
 .anonovo{
     width: 45vw;
 }
+
+
+.text-end {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    height: 100vh;
+  }
+
+
+  .right-text, .left-image {
+    flex-basis: 50%; 
+  }
 
