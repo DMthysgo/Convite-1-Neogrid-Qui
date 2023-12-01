@@ -1,3 +1,7 @@
+.rodape{
+    width: 100%;
+}
+
 section.resume-section {
     display: flex;
     align-items: center;
@@ -11,5 +15,9 @@ section.resume-section {
 
 section.resume-section .resume-section-content {
     width: 100%;
+}
+
+.anonovo{
+    width: 45vw;
 }
 
